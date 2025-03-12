@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Load Data
-df = pd.read_csv("all_data.csv")
+df = pd.read_csv(r"C:\Users\ASUS\Downloads\Submission\Dashboard\all_data.csv")
 
 # Data Preprocessing
 df = df[["dteday", "season_x", "mnth_x", "hr", "casual_x", "registered_x", "cnt_x", "weathersit_x", "workingday_x"]]
